@@ -1,17 +1,14 @@
 {
-  "cidades": [
-    { "id": 1, "title": "Cidade 1" },
-    { "id": 2, "title": "Cidade 2" },
-    { "id": 3, "title": "Cidade 3" }
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
   ],
-  "bairros": [
-    { "id": 1, "title": "Bairros 1" },
-    { "id": 2, "title": "Bairros 2" },
-    { "id": 3, "title": "Bairros 3" }
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
   ],
-  "estados": [
-    { "id": 1, "title": "Estados 1" },
-    { "id": 2, "title": "Estados 2" },
-    { "id": 3, "title": "Estados 3" }
-  ]
+  "profile": {
+    "name": "typicode"
+  }
 }
