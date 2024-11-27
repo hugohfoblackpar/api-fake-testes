@@ -4,12 +4,12 @@
     { "id": 2, "title": "Cidade 2" },
     { "id": 3, "title": "Cidade 3" }
   ],
-  "Bairros": [
+  "bairros": [
     { "id": 1, "title": "Bairros 1" },
     { "id": 2, "title": "Bairros 2" },
     { "id": 3, "title": "Bairros 3" }
   ],
-  "Estados": [
+  "estados": [
     { "id": 1, "title": "Estados 1" },
     { "id": 2, "title": "Estados 2" },
     { "id": 3, "title": "Estados 3" }
