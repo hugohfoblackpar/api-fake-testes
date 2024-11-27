@@ -18,13 +18,5 @@
   "ruas": [
     { "id": 1, "name": "rua 1"},
     { "id": 2, "name": "rua 2"}
-  ],
-  "enderecos": [
-    { "id": 1, "name": "end 1"},
-    { "id": 2, "name": "end 2"}
-  ],
-  "users": [
-    { "id": 1, "name": "user 1"},
-    { "id": 2, "name": "user 2"}
   ]
 }
