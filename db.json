@@ -1,0 +1,17 @@
+{
+  "cidades": [
+    { "id": 1, "title": "Cidade 1" },
+    { "id": 2, "title": "Cidade 2" },
+    { "id": 3, "title": "Cidade 3" }
+  ],
+  "Bairros": [
+    { "id": 1, "title": "Bairros 1" },
+    { "id": 2, "title": "Bairros 2" },
+    { "id": 3, "title": "Bairros 3" }
+  ],
+  "Estados": [
+    { "id": 1, "title": "Estados 1" },
+    { "id": 2, "title": "Estados 2" },
+    { "id": 3, "title": "Estados 3" }
+  ],
+}
