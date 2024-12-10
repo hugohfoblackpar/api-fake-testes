@@ -1,22 +1,176 @@
 {
-  "cidades": [
-    { "id": 1, "title": "Post 1", "cepsId": 1},
-    { "id": 2, "title": "Post 2", "cepsId": 2 },
-    { "id": 3, "title": "Post 3", "cepsId": 1 }
-  ],
-  "bairros": [
-    { "id": 1, "body": "some comment", "cepsId": 1},
-    { "id": 2, "body": "some comment", "cepsId": 2 }
-  ],
-  "estados": {
-    "name": "typicode"
-  },
-  "ceps": [
-    { "id": 1, "cod": "123456"},
-    { "id": 2, "cod": "123456"}
-  ],
-  "ruas": [
-    { "id": 1, "name": "rua 1"},
-    { "id": 2, "name": "rua 2"}
-  ]
+  "dropdowns": {
+    "paymentTerms": [
+        {
+            "id": 1,
+            "name": "30 dias"
+        },
+        {
+            "id": 2,
+            "name": "60 dias"
+        },
+        {
+            "id": 3,
+            "name": "90 dias"
+        }
+    ],
+    "billingMethods": [
+        {
+            "id": 1,
+            "name": "Faturamento mensal"
+        },
+        {
+            "id": 2,
+            "name": "Faturamento por entrega"
+        },
+        {
+            "id": 3,
+            "name": "Faturamento único"
+        }
+    ],
+    "revenueMethods": [
+        {
+            "id": 1,
+            "name": "Reconhecimento mensal"
+        },
+        {
+            "id": 2,
+            "name": "Reconhecimento por entrega"
+        },
+        {
+            "id": 3,
+            "name": "Reconhecimento por milestone"
+        }
+    ],
+    "businessUnits": [
+        {
+            "id": 1,
+            "name": "Unidade A"
+        },
+        {
+            "id": 2,
+            "name": "Unidade B"
+        },
+        {
+            "id": 3,
+            "name": "Unidade C"
+        }
+    ],
+    "statuses": [
+        {
+            "id": 1,
+            "name": "Ativo"
+        },
+        {
+            "id": 2,
+            "name": "Inativo"
+        },
+        {
+            "id": 3,
+            "name": "Concluído"
+        }
+    ],
+    "types": [
+        {
+            "id": 1,
+            "name": "Tipo 1"
+        },
+        {
+            "id": 2,
+            "name": "Tipo 2"
+        },
+        {
+            "id": 3,
+            "name": "Tipo 3"
+        }
+    ],
+    "serviceTypes": [
+        {
+            "id": 1,
+            "name": "Serviço 1"
+        },
+        {
+            "id": 2,
+            "name": "Serviço 2"
+        },
+        {
+            "id": 3,
+            "name": "Serviço 3"
+        }
+    ],
+    "markets": [
+        {
+            "id": 1,
+            "name": "Mercado 1"
+        },
+        {
+            "id": 2,
+            "name": "Mercado 2"
+        },
+        {
+            "id": 3,
+            "name": "Mercado 3"
+        }
+    ],
+    "objectTypes": [
+        {
+            "id": 1,
+            "name": "Objeto 1"
+        },
+        {
+            "id": 2,
+            "name": "Objeto 2"
+        },
+        {
+            "id": 3,
+            "name": "Objeto 3"
+        }
+    ],
+    "bvCodes": [
+        {
+            "id": 1,
+            "name": "BV001"
+        },
+        {
+            "id": 2,
+            "name": "BV002"
+        },
+        {
+            "id": 3,
+            "name": "BV003"
+        }
+    ],
+    "unitsOfMeasure": [
+        {
+            "id": 1,
+            "name": "Unidade"
+        },
+        {
+            "id": 2,
+            "name": "Kg"
+        },
+        {
+            "id": 3,
+            "name": "Ton"
+        },
+        {
+            "id": 4,
+            "name": "l"
+        }
+    ],
+    "currencies": [
+        {
+            "id": 1,
+            "name": "BRL"
+        },
+        {
+            "id": 2,
+            "name": "USD"
+        },
+        {
+            "id": 3,
+            "name": "EUR"
+        }
+    ]
+  }
 }
