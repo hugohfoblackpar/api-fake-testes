@@ -172,5 +172,28 @@
             "name": "EUR"
         }
     ]
+  },
+
+  "contratos": {
+      "results": [
+          {
+              "id": 1,
+              "name": "CONTRATO 0",
+              "cpfCnpj": "12345678901"
+          },
+          {
+              "id": 2,
+              "name": "CONTRATO 1",
+              "cpfCnpj": "98765432100"
+          },
+          {
+              "id": 3,
+              "name": "CONTRATO 2",
+              "cpfCnpj": "45612378900"
+          }
+      ],
+      "pageIndex": 1,
+      "pageSize": 10,
+      "totalResults": 3
   }
 }
