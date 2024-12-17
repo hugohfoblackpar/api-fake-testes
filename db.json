@@ -227,7 +227,7 @@
     "totalResults": 3
 },
 
-  'detalheContrato': {
+  "detalheContrato": {
     "id": 1,
     "contractNumber": "Contract 1",
     "serviceCode": "ServiceCode 1",
