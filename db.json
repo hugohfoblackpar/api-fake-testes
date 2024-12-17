@@ -2,198 +2,314 @@
   "dropdowns": {
     "paymentTerms": [
         {
-            "id": 1,
-            "name": "30 dias"
+            "value": 1,
+            "label": "ContractPaymentTerms 1"
         },
         {
-            "id": 2,
-            "name": "60 dias"
+            "value": 2,
+            "label": "ContractPaymentTerms 2"
         },
         {
-            "id": 3,
-            "name": "90 dias"
+            "value": 3,
+            "label": "ContractPaymentTerms 3"
         }
     ],
-    "billingMethods": [
+    "billingMethod": [
         {
-            "id": 1,
-            "name": "Faturamento mensal"
+            "value": 1,
+            "label": "BillingMethods 1"
         },
         {
-            "id": 2,
-            "name": "Faturamento por entrega"
+            "value": 2,
+            "label": "BillingMethods 2"
         },
         {
-            "id": 3,
-            "name": "Faturamento único"
+            "value": 3,
+            "label": "BillingMethods 3"
         }
     ],
     "revenueMethods": [
         {
-            "id": 1,
-            "name": "Reconhecimento mensal"
+            "value": 1,
+            "label": "RevenueMethods 1"
         },
         {
-            "id": 2,
-            "name": "Reconhecimento por entrega"
+            "value": 2,
+            "label": "RevenueMethods 2"
         },
         {
-            "id": 3,
-            "name": "Reconhecimento por milestone"
+            "value": 3,
+            "label": "RevenueMethods 3"
         }
     ],
-    "businessUnits": [
+    "projectStatus": [
         {
-            "id": 1,
-            "name": "Unidade A"
+            "value": 1,
+            "label": "ContractProjectStatus 1"
         },
         {
-            "id": 2,
-            "name": "Unidade B"
+            "value": 2,
+            "label": "ContractProjectStatus 2"
         },
         {
-            "id": 3,
-            "name": "Unidade C"
+            "value": 3,
+            "label": "ContractProjectStatus 3"
         }
     ],
-    "statuses": [
+    "projectTypes": [
         {
-            "id": 1,
-            "name": "Ativo"
+            "value": 1,
+            "label": "ContractProjectTypes 1"
         },
         {
-            "id": 2,
-            "name": "Inativo"
+            "value": 2,
+            "label": "ContractProjectTypes 2"
         },
         {
-            "id": 3,
-            "name": "Concluído"
-        }
-    ],
-    "types": [
-        {
-            "id": 1,
-            "name": "Tipo 1"
-        },
-        {
-            "id": 2,
-            "name": "Tipo 2"
-        },
-        {
-            "id": 3,
-            "name": "Tipo 3"
+            "value": 3,
+            "label": "ContractProjectTypes 3"
         }
     ],
     "serviceTypes": [
         {
-            "id": 1,
-            "name": "Serviço 1"
+            "value": 1,
+            "label": "ServiceTypes 1"
         },
         {
-            "id": 2,
-            "name": "Serviço 2"
+            "value": 2,
+            "label": "ServiceTypes 2"
         },
         {
-            "id": 3,
-            "name": "Serviço 3"
+            "value": 3,
+            "label": "ServiceTypes 3"
         }
     ],
     "markets": [
         {
-            "id": 1,
-            "name": "Mercado 1"
+            "value": 1,
+            "label": "ContractMarkets 1"
         },
         {
-            "id": 2,
-            "name": "Mercado 2"
+            "value": 2,
+            "label": "ContractMarkets 2"
         },
         {
-            "id": 3,
-            "name": "Mercado 3"
+            "value": 3,
+            "label": "ContractMarkets 3"
         }
     ],
     "objectTypes": [
         {
-            "id": 1,
-            "name": "Objeto 1"
+            "value": 1,
+            "label": "ObjectTypes 1"
         },
         {
-            "id": 2,
-            "name": "Objeto 2"
+            "value": 2,
+            "label": "ObjectTypes 2"
         },
         {
-            "id": 3,
-            "name": "Objeto 3"
+            "value": 3,
+            "label": "ObjectTypes 3"
         }
     ],
-    "bvCodes": [
+    "serviceCodeBvs": [
         {
-            "id": 1,
-            "name": "BV001"
+            "value": 1,
+            "label": "ServiceCodesBv 1"
         },
         {
-            "id": 2,
-            "name": "BV002"
+            "value": 2,
+            "label": "ServiceCodesBv 2"
         },
         {
-            "id": 3,
-            "name": "BV003"
+            "value": 3,
+            "label": "ServiceCodesBv 3"
         }
     ],
-    "unitsOfMeasure": [
+    "billingCurrencies": [
         {
-            "id": 1,
-            "name": "Unidade"
+            "value": 1,
+            "label": "BillingCurrencys 1"
         },
         {
-            "id": 2,
-            "name": "Kg"
+            "value": 2,
+            "label": "BillingCurrencys 2"
         },
         {
-            "id": 3,
-            "name": "Ton"
-        },
-        {
-            "id": 4,
-            "name": "l"
+            "value": 3,
+            "label": "BillingCurrencys 3"
         }
     ],
-    "currencies": [
+    "customers": [
         {
-            "id": 1,
-            "name": "BRL"
+            "value": 9,
+            "label": "Alpha Tech Solutions"
         },
         {
-            "id": 2,
-            "name": "USD"
+            "value": 10,
+            "label": "Beta Comercial LTDA"
         },
         {
-            "id": 3,
-            "name": "EUR"
+            "value": 11,
+            "label": "Gamma Indústria S.A."
+        },
+        {
+            "value": 12,
+            "label": "Delta Serviços ME"
+        },
+        {
+            "value": 13,
+            "label": "Epsilon e-Commerce"
+        },
+        {
+            "value": 14,
+            "label": "Gamma Indústria S.A."
+        },
+        {
+            "value": 16,
+            "label": "Bureau Teste"
+        },
+        {
+            "value": 20,
+            "label": "Veritas Teste"
+        },
+        {
+            "value": 21,
+            "label": "bureau teste 4"
+        },
+        {
+            "value": 22,
+            "label": "bureau teste 2"
+        },
+        {
+            "value": 24,
+            "label": "Delta Indústria Ltda"
+        },
+        {
+            "value": 25,
+            "label": "Gamma Indústria S.A."
         }
     ]
-  },
+},
 
   "contracts": {
-      "results": [
-          {
-              "id": 1,
-              "name": "CONTRATO 0",
-              "cpfCnpj": "12345678901"
-          },
-          {
-              "id": 2,
-              "name": "CONTRATO 1",
-              "cpfCnpj": "98765432100"
-          },
-          {
-              "id": 3,
-              "name": "CONTRATO 2",
-              "cpfCnpj": "45612378900"
-          }
-      ],
-      "pageIndex": 1,
-      "pageSize": 10,
-      "totalResults": 3
-  }
+    "results": [
+        {
+            "id": 1,
+            "contractNumber": "Contract 1",
+            "serviceCode": "ServiceCode 1",
+            "title": "Contract Title 1",
+            "businessUnit": "Business Unit 1",
+            "parentContract": "ParentContract 1",
+            "customerName": "Gamma Indústria S.A."
+        },
+        {
+            "id": 2,
+            "contractNumber": "Contract 2",
+            "serviceCode": "ServiceCode 2",
+            "title": "Contract Title 2",
+            "businessUnit": "Business Unit 2",
+            "parentContract": "ParentContract 2",
+            "customerName": "Delta Serviços ME"
+        },
+        {
+            "id": 3,
+            "contractNumber": "Contract 3",
+            "serviceCode": "ServiceCode 3",
+            "title": "Contract Title 3",
+            "businessUnit": "Business Unit 3",
+            "parentContract": "ParentContract 3",
+            "customerName": "Epsilon e-Commerce"
+        }
+    ],
+    "pageIndex": 1,
+    "pageSize": 10,
+    "totalResults": 3
+},
+
+  'detalheContrato': {
+    "id": 1,
+    "contractNumber": "Contract 1",
+    "serviceCode": "ServiceCode 1",
+    "title": "Contract Title 1",
+    "description": "Description 1",
+    "businessUnit": "Business Unit 1",
+    "parentContract": "ParentContract 1",
+    "projectManager": "Project Manager 1",
+    "minNteAmts": "MinNteAmts 1",
+    "nteAmt": "NteAmt 1",
+    "startDate": "2024-01-01T00:00:00",
+    "endDate": "2025-01-01T00:00:00",
+    "realStartDate": "2024-01-01T00:00:00",
+    "realEndDate": "2025-01-01T00:00:00",
+    "contractPaymentTerm": {
+        "id": 1,
+        "name": "ContractPaymentTerms 1"
+    },
+    "billingMethod": {
+        "id": 1,
+        "name": "BillingMethods 1"
+    },
+    "revenueMethod": {
+        "id": 1,
+        "name": "RevenueMethods 1"
+    },
+    "contractProjectStatus": {
+        "id": 1,
+        "status": "ContractProjectStatus 1"
+    },
+    "contractProjectType": {
+        "id": 1,
+        "type": "ContractProjectTypes 1"
+    },
+    "serviceType": {
+        "id": 1,
+        "type": "ServiceTypes 1"
+    },
+    "contractMarket": {
+        "id": 1,
+        "name": "ContractMarkets 1"
+    },
+    "objectType": {
+        "id": 1,
+        "type": "ObjectTypes 1"
+    },
+    "serviceCodeBv": {
+        "id": 1,
+        "code": "ServiceCodesBv 1"
+    },
+    "billingCurrency": {
+        "id": 1,
+        "name": "BillingCurrencys 1"
+    },
+    "items": [
+        {
+            "id": 1,
+            "itemNumber": "ItemNumber 1",
+            "subtype": "Subtype 1",
+            "unitPrice": 100.00,
+            "description": "Description 1"
+        },
+        {
+            "id": 2,
+            "itemNumber": "ItemNumber 2",
+            "subtype": "Subtype 2",
+            "unitPrice": 150.00,
+            "description": "Description 2"
+        },
+        {
+            "id": 3,
+            "itemNumber": "ItemNumber 3",
+            "subtype": "Subtype 3",
+            "unitPrice": 200.00,
+            "description": "Description 3"
+        }
+    ],
+    "customers": [
+        {
+            "id": 11,
+            "name": "Gamma Indústria S.A."
+        }
+    ]
+}
 }
